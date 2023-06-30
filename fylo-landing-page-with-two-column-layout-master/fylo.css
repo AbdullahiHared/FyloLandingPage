@@ -1,0 +1,246 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-weight: 400px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.top {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.left {
+    padding-top: 20px;
+    margin-right:20px;
+}
+
+.right {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 1000px;
+    gap: 20px;
+    justify-content:space-around;
+    flex-direction: row;
+}
+.sign {
+    margin-right:1px;
+}
+
+.information {
+    font-family: ;
+    display: flex;
+    padding-top: 60px;
+    margin-left: 30px;
+    flex-direction: row;
+}
+
+.file {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: Times, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200px;
+}
+
+.email {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+}
+
+.getStarted {
+    border: none;
+    color: white;
+    border-radius: 2px;
+    width: 140px;
+    height: 30px;
+    background-color: rgb(51, 51, 207);
+}
+
+.curve {
+    height: 200px;
+    width: 1530px;
+    margin-bottom:-20px;
+}
+
+.reasons {
+    background-color:rgb(238, 243, 245);
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    margin-left: 30px;
+    gap: 100px;
+}
+
+.instruction {
+    display: flex;
+    color: green;
+    gap: 10px;
+    flex-direction: row;
+    text-decoration:underline;
+    
+}
+
+.comment {
+    word-break:inherit;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    background-color: white;
+    justify-content: center;
+    align-items:baseline;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.avatarinfo {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.point {
+    text-decoration-line:underline;
+}
+
+.personInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    border-radius: 25px;
+}
+
+.name {
+    font-size: 14px;
+    font-family: fantasy;
+}
+
+.personJob {
+    margin-top: -8px;
+    filter: contrast(20%);
+    font-size: 13px;
+}
+.getStarted:hover {
+    background-color:black;
+    color:white;
+    transition:0.4s;
+    cursor: pointer;
+}
+.boardImage {
+    margin-top:50px;
+    margin-left:30px;
+}
+.features:hover {
+    color:blue;
+}
+.team:hover {
+    color:blue;
+}
+.sign:hover {
+    color:blue;
+}
+.accessPart {
+    background-color:#5f79a6;
+    display:flex;
+    flex-direction:row;
+    padding:29px;
+    align-items: center;
+    color:white;
+    padding-bottom:90px;
+}
+.miniAcess {
+ gap:20px;
+}
+.signUp {
+    display: flex;
+    flex-direction:column;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-bottom:100px;
+    margin-left:200px;
+    margin-top:100px;
+}
+.enteremail {
+    width:350px;
+    height:35px;
+    border:none;
+    align-items:center;
+    border-radius:4px;
+}
+.getFree {
+width:190px;
+height:35px;
+color:white;
+align-items:center;
+border:none;
+cursor:pointer;
+border-radius:4px;
+background-color:blue;
+}
+.footer {
+    display:flex;
+    flex-direction:column;
+    background-color:#050A30;
+    color:white;
+    padding:100px;
+}
+.fylo {
+   font-weight:bold;
+   margin-top:-60px;
+   font-size:40px;
+}
+.lastInfo {
+    display:flex;
+    flex-direction:row;
+    margin-left:30px;
+    gap:20px;
+}
+.phone {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    filter:contrast(50%);
+}
+.about {
+   display:flex; 
+   flex-direction:column;
+   margin-left:500px;
+   margin-top:-69px;
+   gap:14px;
+   filter:contrast(50%);
+}
+.gmail,.mobileNumber {
+    filter:brightness(100%);
+}
+.contact {
+   display:flex; 
+   flex-direction:column;
+   margin-left:800px;
+   margin-top:-120px;
+   gap:14px;
+   filter:contrast(50%);
+}
