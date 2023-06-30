@@ -11,13 +11,12 @@ body {
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    justify-content: center;
     flex-direction: row;
 }
 
 .left {
-    padding-top: 20px;
-    margin-right:20px;
+    margin:20px;
+    margin-left:30px;
 }
 
 .right {
@@ -201,6 +200,62 @@ cursor:pointer;
 border-radius:4px;
 background-color:blue;
 }
+
+ 
+.footer {
+    background-color:#050A30;
+    align-items: center;
+}
+.lastInfo {
+    margin-left:30px;
+    display:flex;
+    color:white;
+    gap:150px;
+    align-items:center;
+    padding:100px;
+    padding-top:50px;
+    padding-bottom:50px;
+    flex-direction:row;
+}
+.fyloImage {
+    filter: invert(30%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%)
+}
+.phone {
+    display:flex;
+    flex-direction:row;
+    color:white;
+    gap:20px;
+}
+.phoneNumber {
+    filter:contrast(40%);
+}
+.mobileNumber {
+    margin-top:15px;
+}
+.contactinfo {
+display:flex;
+gap:5px;
+flex-direction:column;
+}
+.gmail {
+    margin-left:30px;
+    margin-top:-20px; 
+    margin-left:40px;
+    filter:contrast(40%);
+}
+.about,.contact {
+ margin-top:70px;
+}
+.contact {
+    margin-top:50px;
+}
+.socialContacts {
+    filter: invert(30%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(80%);
+    margin-top:24px; 
+}
+
+
+/*
 .footer {
     display:flex;
     flex-direction:column;
